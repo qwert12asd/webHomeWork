@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <style type="text/css">
+        body {
+            background-image: url(img/1.png);
+            background-repeat: no-repeat;
+        }
+
+        .first {
+            font-weight: 700px;
+        }
+
+        .size-first {
+            font-size: 24px;
+            font-weight: 700px;
+            letter-spacing: 1px;
+            padding-right: 48px;
+        }
+
+        .size-second {
+            text-indent: 2.5em;
+            letter-spacing: 1px;
+            padding-right: 48px;
+            font-size: 24px;
+        }
+
+        .size-third {
+            word-spacing: 0.001px;
+            font-weight: 700px;
+            font-family: "微软雅黑";
+            margin-top: 10px;
+            text-indent: 1.5em;
+            letter-spacing: 0.001px;
+            font-size: 40px;
+        }
+
+        .size-fourth {
+            word-spacing: 0.001px;
+            font-weight: 700px;
+            margin-top: 10px;
+            text-indent: 2.4em;
+            letter-spacing: 0.8px;
+            font-size: 25px;
+            color: rgba(222, 230, 228, 0.555)
+        }
+
+        .size-fifth {
+            word-spacing: 0.1px;
+            font-weight: 700px;
+            margin-top: 35px;
+            text-indent: 2.2em;
+            letter-spacing: 0.1px;
+            font-size: 25px;
+        }
+
+        .size-sixth {
+            word-spacing: 0.1px;
+            font-weight: 700px;
+            margin-top: 5px;
+            text-indent: 2.3em;
+            letter-spacing: 0.1px;
+            font-size: 25px;
+        }
+
+        .size-seventh {
+            margin-top: 90px;
+            text-indent: 2.5em;
+            letter-spacing: 1px;
+            padding-right: 48px;
+            font-size: 24px;
+            color: rgba(126, 160, 152, 0.555)
+        }
+
+        .height-o {
+            height: 30px;
+        }
+
+        div {
+            height: 20px;
+            letter-spacing: 2px;
+
+        }
+
+        .left {
+            float: left;
+            width: 66%;
+            height: 100%;
+            /* background-color: green; */
+        }
+
+        .right {
+            float: right;
+            width: 34%;
+            height: 0%;
+            /* background-color: red; */
+        }
+
+        .size-eighth {
+            word-spacing: 1px;
+            font-weight: 500px;
+            font-family: "微软雅黑";
+            margin-top: 32px;
+            text-indent: 0.5em;
+            letter-spacing: 0.1px;
+            font-size: 40px;
+        }
+
+        .height-t {
+            margin-top: 100px;
+        }
+
+        .size-ninth {
+            word-spacing: 1px;
+            font-weight: 500px;
+            text-indent: 0.5em;
+            letter-spacing: 0.1px;
+            font-size: 50px;
+            color: rgba(222, 230, 228, 0.555)
+        }
+
+        .size-tenth {
+            word-spacing: 2px;
+            margin-top: 0px;
+            font-weight: 700px;
+            text-indent: 30em;
+            letter-spacing: 0.1px;
+            font-size: 30px;
+            color: rgba(222, 230, 228, 0.555)
+        }
+
+        .size-sevenths {
+            margin-top: 95px;
+            text-indent: 2.5em;
+            letter-spacing: 1px;
+            padding-right: 48px;
+            font-size: 24px;
+            color: rgba(126, 160, 152, 0.555)
+        }
+
+        div img.mid1 {
+            width: 500;
+            cursor: pointer;
+            transition: all 0.6s;
+        }
+
+        div img.mid1:hover {
+            transform: scale(1.4);
+
+        }
+
+        #test1 {
+            position: absolute;
+            top: 140px;
+            left: 1080px;
+        }
+
+        #test2 {
+            position: absolute;
+            top: 480px;
+            left: 1080px;
+        }
+
+        #test3 {
+            position: absolute;
+            top: 825px;
+            left: 1080px;
+        }
+
+        #test4 {
+            position: absolute;
+            top: 650px;
+            left: 920px;
+        }
+
+        #test5 {
+            position: absolute;
+            top: 310px;
+            left: 920px;
+        }
+
+        #test6 {
+            position: absolute;
+            top: 995px;
+            left: 920px;
+        }
+
+        .test7 {
+            position: absolute;
+            margin-top: 10px;
+            font-size: 30px;
+            top: 350px;
+            left: 1630px;
+            font-weight: 700px;
+            letter-spacing: 0.1px;
+            /* text-indent: 30em; */
+        }
+
+        .test8 {
+            position: absolute;
+            font-size: 25px;
+            top: 455px;
+            left: 1630px;
+            font-weight: 700px;
+            text-indent: 30em;
+            word-spacing: 0.1px;
+            letter-spacing: 0.1px;
+        }
+
+        .test9 {
+            position: absolute;
+            margin-top: 10px;
+            font-size: 30px;
+            top: 605px;
+            left: 1630px;
+            font-weight: 700px;
+            letter-spacing: 0.1px;
+            /* text-indent: 30em; */
+        }
+
+        .test10 {
+            position: absolute;
+            font-size: 25px;
+            top: 715px;
+            left: 1630px;
+            font-weight: 700px;
+            text-indent: 30em;
+            word-spacing: 0.1px;
+            letter-spacing: 0.1px;
+        }
+
+        .test11 {
+            position: absolute;
+            margin-top: 10px;
+            font-size: 30px;
+            top: 860px;
+            left: 1630px;
+            font-weight: 700px;
+            letter-spacing: 0.1px;
+            /* text-indent: 30em; */
+        }
+
+        .test12 {
+            position: absolute;
+            font-size: 25px;
+            top: 930px;
+            left: 1630px;
+            font-weight: 700px;
+            text-indent: 30em;
+            word-spacing: 0.1px;
+            letter-spacing: 0.1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <div>
+        <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span class="first size-first"><a href="#">HOME</a></span>
+        <span class="size-first">ONEZERO</span>
+        <span class="size-first">ELEMENTAL</span>
+        <span class="size-first">GEN</span>
+        <span class="size-first">ZORA</span>
+        <span class="size-first">FORGE</span>
+        <span class="size-first">HUMAN PARTS</span>
+        <span class="size-first">MARKER</span>
+        <span class="size-first">LEBEL</span>
+        <span class="size-first">HEATED</span>
+        <span class="size-first">DESIGN</span>
+        <span class="size-first">MO</span>
+    </div>
+    <div>&nbsp;</div>
+    <div></div>
+    <div class="height-o"></div>
+    <div class="left">&nbsp;</div>
+    <div class="left size-second">
+        POPULAR ON MEDIUM
+    </div>
+    <div>&nbsp;</div>
+    <div class="left size-third">
+        Commonly Used Desigh Patterns in JavaScript
+    </div>
+    <div class="right size-eighth">
+        Popular on Medium
+        <div class="height-t">
+            <span class="size-ninth">
+                01
+                <br />
+                <br />
+                <br />
+                <br />
+                &nbsp;02
+                <br />
+                <br />
+                <br />
+                <br />
+                &nbsp;03
+            </span>
+            <!-- <span class="size-tenth">
+                How to Distinguish Between a<br />
+                Public Safety Crisis and a<br />
+            </span> -->
+        </div>
+        <div>
+            <!-- Imani Bashir in FORGE
+            Mar 3 · 4 min read -->
+        </div>
+
+
+
+    </div>
+    <div class="left size-fourth">
+        A look at the singleton,iterator,and factory patterns
+    </div>
+    <div class="left size-fifth">
+        John Au-Yeung in Better Programming
+    </div>
+    <div class="left size-sixth">
+        Feb 24 · 4 min read
+    </div>
+
+    <!-- <div class="right size-tenth">How to Distinguish Between a</div> -->
+
+
+
+    <div class="left size-seventh">
+        BASED ON YOUR READING HISTORY
+    </div>
+    <div class="left size-third">
+        Why Your App Looks Better in Sketch
+    </div>
+    <div class="left size-fourth">
+        Exploring rendering differences between Sketch and iOS
+    </div>
+    <div class="left size-fifth">
+        Nathan Gitter
+    </div>
+    <div class="left size-sixth">
+        Jan 31,2018 · 6 min read
+    </div>
+    <div class="left size-sevenths">
+        BASED ON YOUR READING HISTORY
+    </div>
+
+    <div class="left size-third">
+        JavaScript Bundlers,a Comparison
+    </div>
+    <div class="left size-fourth">
+        How do JavaScript bundlers stack up against each other?
+    </div>
+    <div class="left size-fifth">
+        AJ Meyghani
+    </div>
+    <div class="left size-sixth">
+        Oct 28,2018 · 27 min read
+    </div>
+
+    <!-- <img class="mid1" src="img/2.png" width="200" ,height="300"> -->
+    <div id="test1"><a href="img/2.png" target="_blank"><img src="img/2_proc.jpg" border="0" width="300"></a></div>
+    <div id="test2"><a href="img/3.png" target="_blank"><img src="img/3.png" border="0" width="300"></a></div>
+    <div id="test3"><a href="img/4.png" target="_blank"><img src="img/4.png" border="0" width="300"></a></div>
+    <div id="test4"><a href="#"><img src="img/5.png" border="0" width="120"></a></div>
+    <div id="test5"><a href="#"><img src="img/5.png" border="0" width="120"></a></div>
+    <div id="test6"><a href="#"><img src="img/5.png" border="0" width="120"></a></div>
+    <div class="test7">
+        How to Distinguish Between a<br />
+        Public Safety Crisis and a<br />
+        Personal Anxiety<br />
+    </div>
+    <div class="test8 size-sixth">
+        Imani Imani Bashir in Forge<br />
+        Mar 3 · 4 min read
+    </div>
+    <div class="test9">
+        There's an Epidemic That's a<br />
+        Bigger Threat Than the<br />
+        Coronavirus
+    </div>
+    <div class="test10 size-sixth">
+        Dr.David Dr.David L.Katz in Heated<br />
+        Feb 29 · 8 min read
+    </div>
+    <div class="test11">
+        The Flawed,Twisted Legacy of<br />
+        Jack Welch<br />
+    </div>
+    <div class="test12 size-sixth">
+        Rob Rob Walker in Marker<br />
+        Mar 3 · 4 min read
+    </div>
+</body>
+
+</html>
